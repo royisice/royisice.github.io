@@ -1,0 +1,9 @@
+.text {
+    background-color: black;
+}
+
+span {
+    color: white;
+    background-color: brown;
+    front-size: 25px;
+}
