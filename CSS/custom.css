@@ -1,5 +1,10 @@
-h1{
-    color: red;
+h1{ 
+
+    /* color */
+
+    /* 0 -> 9 a ->f */ 
+    /* 0 -> 255 */
+    color: rgb(red, green, blue);
     text-align: center;
 }
 
