@@ -26,3 +26,50 @@ a[title="google"]{
     word-spacing: 20px;
     line-height: 40px;
 }
+
+/*descendant selector*/
+div p{
+    background-color: yellow;
+}
+
+/*child selector*/
+div>p{
+    color: black;
+}
+
+span>p{
+    color: green;
+}
+
+/*hover selector*/
+h1 a:hover {
+    color: black;
+    font-size: 50px;
+    background-color: red;
+}
+
+h1:hover{
+    color: red;
+}
+
+
+h1 a: link{
+    color: green;
+}
+
+h2 a:visited{
+    color: brown;
+}
+
+h2 a:active{
+    color: yellow;
+}
+
+/*target*/
+:target{
+    color: red;
+    border: 10px dotted black;
+    line-height: 30px;
+    letter-spacing: 20px;
+
+}
