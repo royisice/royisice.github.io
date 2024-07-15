@@ -72,6 +72,15 @@
 /* end bunner */
 
 /* start featured section */
+.highlight {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
 #icon_line{
     margin-top: 30px;
     margin-left: 80px;
