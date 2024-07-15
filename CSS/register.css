@@ -23,4 +23,30 @@ input[type="text"]:focus,input[type="email"]:focus, input[type="number"]:focus, 
     border-radius: 5px;
 }
 
+u1 li:first-child{
+    background-color: yellow;
+}
 
+u1 li:last-child{
+    background-color: green;
+}
+
+u1 li:nth-child(4){
+    background-color: red;
+}
+
+p:empty, div{
+    background-color: rgb(80, 82, 235);
+    height: 20px;
+}
+#register_btn{
+    height: 35px;
+    width: 100px;
+    float: right;
+    display: block;
+}
+#register_btn:hover{
+    background-color: skyblue;
+    color: white;
+    border: 1px solid skyblue ;
+}

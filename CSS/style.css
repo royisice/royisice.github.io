@@ -73,3 +73,171 @@ h2 a:active{
     letter-spacing: 20px;
 
 }
+
+h1{
+    text-align: center;
+    color: red;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* border */
+.borderone{
+    border: 5px dotted red;
+}
+.bordertwo{
+    border-left: 10px solid yellow;
+    border-top: 10px solid yellow;
+}
+.borderthree{
+    border-color: brown;
+    /* border-style: solid; */
+    /* T & R & B & L*/
+    /* border-style: solid dotted; */
+    /* T/B & L/R */
+    /* border-style: solid dotted double; */
+    /* T & l&R & B */
+    border-style: solid dotted double dashed;
+    /* T & R & B & L*/
+}
+.borderwidth{
+    border-style: solid;
+    border-width: 3px 30px;
+}
+
+/* margin */
+.marginone{
+    margin: 10px 30px 40px 100px;
+}
+.margintwo{
+    margin-top: 100px;
+}
+
+.padding{
+    /* padding: 100px; */
+    padding-top: 0cm50px;
+    border: 1px solid red;
+}
+
+/* layout */
+.inline{
+    border: 2px solid red;
+    display: inline inline-block;
+    width: 400px;
+}
+
+.block{
+    border: 2px solid green;
+    width: 400px;
+    display: inline-block;
+}
+
+/* float */
+.float_right img{
+    width: 40%;
+    float: right;
+}
+
+.float_left img{
+    width:40%;
+    text-align: justify;
+}
+
+.clear{
+    clear: both;
+}
+
+.float_left img{
+    width: 40%;
+    float: left;
+}
+
+/* grid */
+.gridone div,.gridtwo div,.gridthree div, .gridfour div, .gridfive div{
+    padding: 20px;
+    color: white; 
+    text-align: center;
+}
+
+.gridone , .gridtwo, .gridthree, .gridfour, .gridfive{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gridtwo{
+    grid-column-gap: 40px;
+}
+
+.gridthree{
+    grid-row-gap: 40px;
+    /* grid-gap: 40px; */
+    grid-column-gap: 70px;
+}
+
+.columnadd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.rowadd{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+/* Position */
+.parent_absolute{
+    width: 1100px;
+    height: 500px;
+    border: 2px solid red;
+    position: relative;
+}
+
+.absolute{
+    width: 400px;
+    height: 200px;
+    border: 2px solid green;
+    position: absolute;
+    top: 18px;
+    left: 158px;
+}
+
+.parent_relative{
+    width: 1100px;
+    height: 500px;
+    border: 2px solid yellow;
+}
+
+.relative {
+    width: 400px;
+    height: 200px;
+    border: 2px solid brown;
+    position: relative;
+    top: 18px;
+    left: 150;
+}
+
+.fixed{
+    position: fixed;
+    top: 50px;
+    right: 100px;
+}
+
+.online{
+    font-family: "Playwrite FR Moderne", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "playwrite";
+    src: url(Playwrite_CL/PlaywriteCL-VariableFont_wght.ttf);
+}
+
+.offline{
+    font-family: "playwrite";
+}
+
