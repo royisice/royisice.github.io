@@ -154,8 +154,9 @@
     grid-row-gap: 30px;
 }
 .new_arrival_item{
-    border: 1px solid black;
+    border: 1px solid gray;
     border-radius: 5px;
+    padding: 0px 20px 10px ;
     position: relative;
 }
 .new_arrival_image{
