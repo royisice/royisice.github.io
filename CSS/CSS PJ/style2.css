@@ -195,3 +195,138 @@
     opacity: 0.5;
 }
  /* end new arrival */
+
+ /*start subscriber*/
+.subscribe{
+    background-color: black;
+    padding: 50px 0px;
+    margin-top: 30px;
+}
+.subscribe div{
+    width: 40%;
+    margin-left: 300px;
+    color: white;
+}
+.subscribe div{
+    width: 60%;;
+}
+
+.subscribe img {
+    max-width: 150px;
+    height: auto;
+}
+.subscribe div p{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 70%;
+}
+.subscribe-input{
+    width: 300px;
+    height: 20px;
+    outline: none;
+    border-radius: 5px 0px 0px 5px;
+    border-color: white;
+}
+
+.scubscribe-btn{
+    width: 70px;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+    background-color: pink;
+    
+}
+/*end subscriber*/
+/*start New*/
+.news{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px 100px 0px;
+    grid-column-gap: 40px;
+}
+.new-img{
+    width: 50%;
+}
+.news > div{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.new-text{
+    padding: 10px 20px 20px;
+}
+.new-text h3{
+    margin-bottom: 10px;
+}
+.read-more{
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.new-date{
+    opacity: 1;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.read-more:hover{
+    background-color: black;
+    color:pink;
+}
+
+.new-img:hover{
+    transform: scale(1.2);
+    transition-duration: 0.8s;
+}
+.image-hover{
+    overflow: hidden;
+    display: inline-block;
+}
+/*end New*/
+.footer{
+    background-color: black;
+   margin-top: 20px;
+   color: white;
+   padding: 100px 0px 100px;
+   display: grid;
+   grid-template-columns: 800px 200px 200px auto;
+}
+.footer-about{
+   margin-left: 100px;
+}
+.divided-footer{
+    width: 80px;
+    border: 2px solid red;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.footer-about p{
+   width: 80%;
+}
+.footer-nav-item{
+   display: block;
+   color: white;
+   text-decoration: none;
+   margin-top: 20px;
+}
+.footer-address{
+    margin-top: 20px;
+    padding-right: 20px;
+}
+.address-icon{
+    padding-right: 20px;
+}
+.footer-social-icon a{
+    color: white;
+    margin-top: 20px;
+    margin-right: 15px;
+    display: inline-block;
+
+}
