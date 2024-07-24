@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Looping</h1>
+    <script>
+        let num = parseInt(prompt('Enter Numer'));
+         
+        for (let k = 1; k <= 12; k++){
+            document.write(`<h1> ${num} * ${k} = ${num * k}</h1>`);
+        }
+
+        for(let a = 5; a > 0; a--){
+            for( let b = 1; b <= a; b++){
+                document.write('*');
+            }
+            document.write('<br>');
+        }
+    </script>
+</body>
+</html>

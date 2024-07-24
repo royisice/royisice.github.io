@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>For Loop</h1>
+    <script>
+        // for loop Syntax
+        // for (initialization; condition; updated){
+        //     code
+        // }
+
+        for (let i = 1; i <= 10; i++){
+            // code
+            document.write(`<h1> Hello World ${i} </h1>`);
+        }
+
+        let lattopLists = ['Acer','Dell','Lenovo','Asus','HP'];
+
+        for (let j = 0 ; j < lattopLists.length ; j++){
+            document.write(`<h1> ${lattopLists[j]} </h1>`);
+        }
+        
+        for(let k = 1; k <= 12 ; k++){
+            document.write(`<h1> 12 * ${k} = ${12 * k}</h1>`);
+        }
+
+        // homework your input data alli prompt
+
+        for(let s = 0 ; s < 5; s++){
+
+            for(let h = 0; h <=s; h++){
+                document.write(`*`);
+            }
+            document.write(`<br>`);
+        }
+
+        //homework 
+        //*****
+        //****
+        //***
+        //**
+        //*
+
+        //while loop
+        //syntax
+        // while (condition){
+            // code
+        // }
+
+        let num = 5;
+        while(num <= 10){
+            //code
+            document.write(`Your number is ${num} <br>`);
+
+            // update
+            num++;
+        }
+
+        // do while
+        // do {
+            // code
+            // updated
+        //} while (condition);
+
+        let no = 20;
+        do{
+            // code
+            document.write(`Your Number is = ${no} <br>`);
+            //update
+            no += 5;
+        } while(no < 100)
+    </script>
+</body>
+</html>
