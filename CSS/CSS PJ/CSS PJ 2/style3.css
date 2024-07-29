@@ -21,13 +21,13 @@
 .nav_item li a{
     text-decoration: none;
     font-size: 18px;
-    color: black;
+    color: pink;
 }
 .nav{
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
 }
 .nav_item li a:hover{
-    color: rgb(4, 163, 168);
+    color: pink;
 }
 .cart_nav_item{
     margin-right: 30px;
@@ -36,7 +36,7 @@
     position: relative;
     top: -20px;
     right: 40px;
-    background-color: rgb(4, 163, 168);
+    background-color: pink;
     padding: 5px;
     border-radius: 50%;
     color: white;
@@ -49,21 +49,21 @@
 }
 .carousel_text{
     position: absolute;
-    top: 300px;
-    left: 150px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    top: 530px;
+    right: 50px;
+    color: whitesmoke;
+    background-color: rgba(173, 37, 37, 0.283);
+    padding: 10px;
 }
 .carousel_text h2{
     margin-bottom: 15px;
 }
 .shop_now{
     margin-top: 20px;
-    background-color: red;
+    background-color: rgb(255, 0, 200);
     color: white;
     padding: 10px 20px;
-    border: 1px solid red;
+    border: 1px solid rgb(255, 0, 0);
     border-radius: 5px;
 }
 .shop_now:hover{
@@ -75,7 +75,7 @@
 .highlight {
     font-size: 18px;
     font-weight: bold;
-    color: black;
+    color:pink;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center; 
@@ -86,7 +86,7 @@
     margin-left: 80px;
 }
 .order_icon{
-    border: 1px solid rgba(0, 0, 0, 0.4);
+    border: 1px solid pink;
     display: inline-block;
     padding: 15px;
     width: 20%;
@@ -96,9 +96,10 @@
 .icon{
     float: left;
     margin-right: 10px;
+    color: pink;
 }
 .icon_text{
-    color: rgba(0, 0, 0, 0.8);
+    color: pink;
 }
 /*end featured section */
 
@@ -110,7 +111,7 @@
 }
 .divided{
     width: 100px;
-    border: 2px solid rgb(168, 144, 4);
+    border: 2px solid pink;
 }
 .promotion{
     display: grid;
@@ -119,13 +120,14 @@
     grid-column-gap: 30px;
 }
 .promotion_item{
-    border: 1px solid gray;
+    border: 1px solid pink;
     border-radius: 5px;
     position: relative;
 }
 .promotion_item p{
     text-align: center;
     padding-bottom: 10px;
+    color: white;
 }
 .promotion_image{
     width: 100%;
@@ -154,7 +156,7 @@
     grid-row-gap: 30px;
 }
 .new_arrival_item{
-    border: 1px solid gray;
+    border: 1px solid pink;
     border-radius: 5px;
     padding: 0px 20px 10px ;
     position: relative;
@@ -165,10 +167,11 @@
 .new_arrival_text{
     bottom: 10px;
     display: inline-block;
+    color: white;
 }
 .heart_list{
     float: right;
-    color: black;
+    color: pink;
 
 }
 .new_arrival_icon{
@@ -178,15 +181,15 @@
     opacity: 0;
 }
 .new_arrival_icon a{
-    border: 1px solid black;
+    border: 1px solid pink;
     border-radius: 5px;
     padding: 5px;
     background-color: rgb(155, 154, 154);
-    color: black;
+    color: pink;
 }
 .new_arrival_icon a:hover{
-    background-color: black;
-    color: white;
+    background-color: pink;
+    color: pink;
 }
 .new_arrival_item:hover .new_arrival_icon{
     opacity: 1;
@@ -195,6 +198,78 @@
     opacity: 0.5;
 }
  /* end new arrival */
+
+/* start trending items */
+.trending {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 0px 100px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+.trending_title {
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.trending_item {
+    border: 1px solid pink;
+    border-radius: 5px;
+    padding: 0px 20px 10px ;
+    position: relative;
+}
+
+.trending_image {
+    width: 100%;
+}
+
+.trending_price {
+    bottom: 10px;
+    display: inline-block;
+}
+
+.trending p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: white;
+}
+
+.heart_list {
+    float: right;
+    color: pink;
+}
+
+.trending_icon {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 0;
+}
+
+.trending_icon a {
+    border: 1px solid pink;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(155, 154, 154);
+    color: pink;
+}
+
+.trending_icon a:hover {
+    background-color: black;
+    color: white;
+}
+
+.trending_item:hover .trending_icon {
+    opacity: 1;
+}
+
+.trending_image:hover {
+    opacity: 0.5;
+}
+/* end trending items */
+
 
  /*start subscriber*/
 .subscribe{
@@ -238,6 +313,7 @@
     
 }
 /*end subscriber*/
+
 /*start New*/
 .news{
     display: grid;
@@ -251,6 +327,7 @@
 .news > div{
     border: 1px solid gray;
     border-radius: 5px;
+    background-color: #e1bad6;
 }
 .new-text{
     padding: 10px 20px 20px;
@@ -330,3 +407,123 @@
     display: inline-block;
 
 }
+ /* start about */
+.about-section {
+    background: url('images2/logo4.gif') no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: calc(100vh - 60px); /* Adjust height to account for navbar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-section h2 {
+    color: #ff69b4;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.about-section .about-logo,
+.about-section .about-image {
+    width: 100px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+.about-section .about-logo {
+    margin-bottom: 20px;
+}
+
+.about-section .about-image {
+    margin-top: 20px;
+}
+
+ /*end about*/
+
+
+
+
+ /* start review */
+body {
+    font-family: 'Times New Roman', serif;
+    background: url('images2/logo\ 4.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.review-section {
+    padding: 80px 20px 20px; /* Add padding-top to avoid content under the fixed navbar */
+    text-align: center;
+    color: #8d088d;
+}
+
+h2 {
+    color: white;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none; /* Removes the border */
+    border-radius: 5px;
+    background: #fff; /* Optional: set background color */
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none; /* Removes the border */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #e1bad6;
+    padding: 10px;
+}
+
+footer span {
+    color: red;
+}
+
+/* end review*/
