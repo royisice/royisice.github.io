@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Gust Game</h1>
+    <script>
+        
+        let num = prompt(`Key Number is 1 to 20.`);
+        let secretNum = 7;
+        let time = 1;
+
+        while ( num != secretNum){
+
+            if( num < secretNum){
+                alert('Your Number is Less than Key Number');
+            }else{
+                alert('Your Number is Greater than Key Number');
+            }
+                num = prompt("Key Number is 1 to 20");
+                time++;
+        }
+        document.write(`Woo! You did it ${time} times`);
+        
+    </script>
+</body>
+</html>
