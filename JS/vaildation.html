@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>form{text-align: center; }</style>
+</head>
+<body>
+    <h1 style="text-align: center; color: red;">Your Login</h1>
+    <form action="home.php" method="post" id="form">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <p id="emailErrorMessage"> </p>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <p id="passwordErrorMeaasge"></p>
+        <button type="submit"  onclick="return checkValidation()">Login</button>
+    </form>
+
+    <script>
+        function checkValidation(){
+            let email = document.getElementById('email').value;
+            let password = document.getElementById('password').value;
+
+            if (email == "" && password == "") {
+                let emailError = document.getElementById('email');
+                let emailErrorMessage = document.getElementById('emailErrorMessage');
+                emailError.style.border = "1px solid red";
+                emailErrorMessage.innerHTML = "Please Fill YOur Email!";
+                emailErrorMessage.style.color = "red";
+                emailErrorMessage.style.margin = "0px";
+
+                let passwordError = document.getElementById('password');
+                let passwordErrorMeaasge = document.getElementById('passwordErrorMeaasge');
+                passwordError.style.border = "1px solid red";
+                passwordErrorMeaasge.innerHTML = "Please Fill Your Password";
+                passwordErrorMeaasge.style.color = "red";
+                passwordErrorMeaasge.style.margin = "0px";
+                return false;
+            }else if(email != "" && password == ""){
+                let emailError = document.getElementById('email');
+                let emailErrorMessage = document.getElementById('emailErrorMessage');
+                emailError.style.border = "1px solid black";
+                emailErrorMessage.innerHTML = "";
+                emailErrorMessage.style.color = "black";
+                emailErrorMessage.style.margin = "0px";
+
+                let passwordError = document.getElementById('password');
+                let passwordErrorMeaasge = document.getElementById('passwordErrorMeaasge');
+                passwordError.style.border = "1px solid red";
+                passwordErrorMeaasge.innerHTML = "Please Fill Your Password ";
+                passwordErrorMeaasge.style.color = "red";
+                passwordErrorMeaasge.style.margin = "0px";
+                return false;
+            }else if(email == "" && password != ""){
+                let emailError = document.getElementById('email');
+                let emailErrorMessage = document.getElementById('emailErrorMessage');
+                emailError.style.border = "1px solid red";
+                emailErrorMessage.innerHTML = "Please Fill YOur Email!";
+                emailErrorMessage.style.color = "red";
+                emailErrorMessage.style.margin = "0px";
+
+                let passwordError = document.getElementById('password');
+                let passwordErrorMeaasge = document.getElementById('passwordErrorMeaasge');
+                passwordError.style.border = "1px solid black";
+                passwordErrorMeaasge.innerHTML = "";
+                passwordErrorMeaasge.style.color = "black";
+                passwordErrorMeaasge.style.margin = "0px";
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+    </script>
+</body>
+</html>

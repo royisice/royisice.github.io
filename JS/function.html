@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Function Lessons</h1>
+    <script>
+        // function syntax
+        // function name(){
+        //     code
+        // }
+        // nameing function
+
+        function fullName(){
+            document.write("My name is Aung Htike Lynn! <br>");
+        }
+
+        fullName();
+
+        // parameter function
+        function sum(one,two){
+            let result = one + two;
+            document.write(`Your Sum result is = ${result} <br>`);
+        }
+        sum(5,8);
+        sum(234,1355);
+        sum(4,55);
+        sum(234,6549);
+        sum(654,1355);
+        sum(234,5455);
+
+        // default parameter function
+        function sub(num1=100, nem2=50){
+            document.write(`Yor Sub result is = ${num1 - num2} <br>`)
+        }
+        sub();
+        sub(300,45);
+        sub(200)
+
+        //return function
+        function multi(num1,num2){
+            let result = num1 * num2;
+            return result;
+        }
+        let multiResult = multi(2,5);
+        document.write("My Multi Result is = " + multiResult + "<br>");
+    </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.clock_box{
+    text-align: center;
+    padding-top: 15%;
+}
+@font-face {
+    font-family: Digital;
+    src: url(font/DS-DIGI.TTF);
+}
+.clock_box p{
+    font-family: Digital;
+    font-size: 100px;
+    color: white;
+}
+#am_pm{
+    font-size: 50px;
+    margin-left: 30px;
+}
+#day{
+    font-size: 50px;
+    margin-left: 250px;
+}
